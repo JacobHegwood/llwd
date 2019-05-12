@@ -23,6 +23,6 @@
 }
 
 @keyframes bgt {
-  from {background-color: white;}
+  from {transform: scaleX(1.02); background-color: white;}
   to {background-color: none;}
 }
