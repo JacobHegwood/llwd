@@ -5,7 +5,7 @@
   top: 0;
   opacity: 0.9;
   align-items: center;
-  height: 4.5rem;
+  height: 4rem;
   background-color: $color-primary-light;
   text-transform: uppercase;
   transition: all .25s, text-shadow .4s;
@@ -34,7 +34,7 @@
     color: $color-primary-light;
     background-color: $color-primary-dark;
     
-    border-top: 6px double $color-secondary-dark;
+    // border-top: 3px double $color-secondary-dark;
     border-bottom: 6px double $color-secondary-dark;
   }
 }
