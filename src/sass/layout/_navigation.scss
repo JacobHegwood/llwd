@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  align-items: center;
+  height: 4.5rem;
+  background-color: $color-primary-light;
+  text-transform: uppercase;
+  transition: all .25s, text-shadow .4s;
+  z-index: 10;
+
+  &__link, &__link:visited {
+    width: unset;
+    position: unset;
+    color: $color-primary-dark;
+    text-decoration: none;
+    background-color: $color-primary-light;
+    padding: 0 1rem;
+    letter-spacing: 2px;
+  }
+
+  &__link:hover{
+    color: $color-grey-light-1;
+    text-shadow: 4px 6px 1px $color-secondary-light;
+  }
+
+  &__link:focus, &__link:active {
+    text-shadow: none;
+  }
+
+  .nav__link--active {
+    color: $color-primary-light;
+    background-color: $color-primary-dark;
+    
+    border-top: 6px double $color-secondary-dark;
+    border-bottom: 6px double $color-secondary-dark;
+  }
+}
