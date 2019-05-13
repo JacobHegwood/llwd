@@ -33,8 +33,6 @@
   .nav__link--active {
     color: $color-primary-light;
     background-color: $color-primary-dark;
-    
-    // border-top: 3px double $color-secondary-dark;
     border-bottom: 6px double $color-secondary-dark;
   }
 }

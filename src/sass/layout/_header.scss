@@ -4,7 +4,7 @@
   background: no-repeat center center;
   background-color: $color-grey-dark-3;
   background-size: cover;
-  animation: bgt .4s ease-in-out;
+  animation: lumin .3s ease-in;
 
   &__header {
     height: unset;
@@ -12,6 +12,7 @@
     position: relative;
     top: 50%;
     left: 50%;
+    animation: bgt .6s ease-in-out;
     transform: translate(-50%, -50%);
     text-align: center;
     text-shadow: 1rem 1rem 2rem rgba($color-grey-dark-3, 0.8);
@@ -23,6 +24,11 @@
 }
 
 @keyframes bgt {
-  from {transform: scaleX(1.02); background-blend-mode: luminosity;}
+  from {transform: translate(-50%, -50%) scale(1.06);}
   to {}
+}
+
+@keyframes lumin {
+  from { opacity: 0.1; }
+  to { }
 }
