@@ -4,11 +4,25 @@ export default class Services extends Component {
   render() {
     return (
       <div>
-        <div className="header header--services">
+        <header className="header header--services">
           <div className="header__header">
             What <span className="header__header--orange">We Do</span>
           </div>
-        </div>
+        </header>
+        <main className="main">
+          <div className="card">
+            <div className="card__header">$367</div>
+            <li className="card__bullet">Price Point A</li>
+            <li className="card__bullet">Price Point B</li>
+            <li className="card__bullet">Price Point C</li>
+          </div>
+          <div className="card">
+            <div className="card__header">$467</div>
+            <li className="card__bullet">Price Point A</li>
+            <li className="card__bullet">Price Point B</li>
+            <li className="card__bullet">Price Point C</li>
+          </div>
+        </main>
       </div>
     );
   }

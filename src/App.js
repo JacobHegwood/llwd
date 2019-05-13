@@ -8,6 +8,12 @@ import Services from "./Services/services";
 import About from "./About/about";
 
 export default class App extends Component {
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0);
+    }
+  }
+
   render() {
     return (
       <div>
