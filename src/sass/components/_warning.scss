@@ -1,0 +1,10 @@
+.warning {
+  width: 100%;
+  position: fixed;
+  top: 4rem;
+  z-index: 10;
+  background-color: $color-secondary-light;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
