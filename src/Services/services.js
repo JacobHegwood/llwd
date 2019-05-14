@@ -11,7 +11,8 @@ export default class Services extends Component {
         </header>
         <main className="main">
           <div className="card">
-            <div className="card__header">$367</div>
+            <div className="card__header">Complete Web Design Services</div>
+            <div className="card__header card__header--price">$367</div>
             <li className="card__bullet">Price Point A</li>
             <li className="card__bullet">Price Point B</li>
             <li className="card__bullet">Price Point C</li>
