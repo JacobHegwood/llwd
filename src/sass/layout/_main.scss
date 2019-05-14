@@ -5,6 +5,6 @@
   justify-content: center;
 
   @include respond(tab-port) { // width < 900?
-    flex-wrap: wrap; //1 rem = 8px, 8/16 = 50%
+    flex-direction: column;
   }
 }

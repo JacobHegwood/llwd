@@ -5,7 +5,6 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "netlify-lm-plugin": "1.0.0",
     "node-sass": "4.12.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",

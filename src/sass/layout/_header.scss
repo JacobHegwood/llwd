@@ -15,11 +15,11 @@
     animation: bgt .6s ease-in-out;
     transform: translate(-50%, -50%);
     text-align: center;
-    text-shadow: 1rem 1rem 2rem rgba($color-grey-dark-3, 0.8);
+    text-shadow: .5rem .5rem 2rem rgba($color-grey-dark-3, 0.8);
   }
 
   &__header--orange {
-    color: $color-secondary-dark;
+    color: $color-tertiary-light;
   }
 }
 

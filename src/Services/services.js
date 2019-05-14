@@ -16,6 +16,7 @@ export default class Services extends Component {
             <li className="card__bullet">Price Point A</li>
             <li className="card__bullet">Price Point B</li>
             <li className="card__bullet">Price Point C</li>
+            <button className="button">Select</button>
           </div>
           <div className="card">
             <div className="card__header">$467</div>
