@@ -5,8 +5,9 @@ export default class Home extends Component {
     return (
       <div>
         <header className="header header--home">
+          <div className="header__logo" />
           <div className="header__header">
-            Long Leaf <span className="header__header--orange">Web Design</span>
+            We Do <span className="header__header--orange">Websites</span>
           </div>
         </header>
         <main className="main" />

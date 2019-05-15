@@ -23,7 +23,7 @@
 
   &__link:hover{
     color: $color-grey-light-1;
-    text-shadow: 4px 6px 1px $color-secondary-light;
+    text-shadow: 4px 5px 1px $color-grey-dark-3;
   }
 
   &__link:focus, &__link:active {
@@ -33,6 +33,6 @@
   .nav__link--active {
     color: $color-primary-light;
     background-color: $color-primary-dark;
-    border-bottom: 6px double $color-tertiary-light;
+    border-bottom: 6px double $color-primary;
   }
 }
