@@ -5,6 +5,7 @@ export default class About extends Component {
     return (
       <div>
         <div className="header header--about">
+          <div className="header__logo" />
           <div className="header__header">
             Who <span className="header__header--orange">We Are</span>
           </div>

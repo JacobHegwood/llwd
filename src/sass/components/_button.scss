@@ -17,4 +17,8 @@
     background-color: $color-primary-dark;
     transform: scale(1.02);
   }
+
+  &:active, &:target {
+    transform: scale(0.98);
+  }
 }

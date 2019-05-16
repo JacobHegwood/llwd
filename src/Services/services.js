@@ -5,6 +5,7 @@ export default class Services extends Component {
     return (
       <div>
         <header className="header header--services">
+          <div className="header__logo" />
           <div className="header__header">
             What <span className="header__header--orange">We Do</span>
           </div>
