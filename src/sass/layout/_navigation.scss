@@ -9,6 +9,7 @@
   background-color: $color-primary-light;
   text-transform: uppercase;
   transition: all .25s, text-shadow .4s;
+  box-shadow: 0 3px .6rem rgba($color-black, 0.2);
   z-index: 10;
 
   &__link, &__link:visited {
@@ -19,6 +20,7 @@
     background-color: $color-primary-light;
     padding: 0 1rem;
     letter-spacing: 2px;
+    box-shadow: none;
   }
 
   &__link:hover{
