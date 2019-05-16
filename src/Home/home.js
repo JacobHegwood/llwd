@@ -4,10 +4,17 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <header className="header header--home">
+        <header
+          className="header"
+          style={{
+            backgroundImage:
+              "url('https://nr2mx6024.codesandbox.io/stock/pines.jpg')"
+          }}
+        >
           <div className="header__logo" />
           <div className="header__header">
-            We Do <span className="header__header--orange">Websites</span>
+            Professional, <span className="header__header--orange">Local</span>{" "}
+            Websites
           </div>
         </header>
         <main className="main" />

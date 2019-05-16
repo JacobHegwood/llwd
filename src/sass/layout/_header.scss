@@ -18,12 +18,13 @@
     background-color: $color-primary;
     background-image: url("https://nr2mx6024.codesandbox.io/brand/logo.png");
     background-size: contain;
-    opacity: 0.9;
+    opacity: 0.86;
   }
 
   &__header {
+    display: inline-block;
     height: unset;
-    font-size: 10rem;
+    font-size: 8rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,12 +38,19 @@
     }
 
     @include respond(tab-port) { // width < 900?
-      font-size: 8rem;
+      font-size: 7rem;
     }
   }
 
   &__header--orange {
+    display: inline-block;
     color: $color-tertiary-light;
+    transition: all .3s;
+
+    &:hover {
+      transform: skew(-7deg) scale(1.15);
+      text-shadow: 1rem 1rem rgba($color-tertiary-dark, 1);
+    }
 
     &::selection {
       background-color: $color-tertiary-dark;
