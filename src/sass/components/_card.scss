@@ -1,12 +1,11 @@
 .card {
-  background: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
-  box-shadow: 0px 0px 6px rgba($color-black, 0.8);
+  background: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+  box-shadow: 0px 0px .6rem rgba($color-black, 0.3);
   width: 44rem;
   padding: 0 1rem;
   margin: 6rem 3rem;
   text-align: center;
   transition: all .2s;
-  opacity: 0.8;
   border-radius: 2px;
 
   &__header {
@@ -19,6 +18,7 @@
   }
 
   &__bullet {
+    text-align: left;
     list-style-type: square;
     font-size: 2rem;
   }

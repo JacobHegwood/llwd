@@ -12,18 +12,32 @@ export default class Services extends Component {
         </header>
         <main className="main">
           <div className="card">
-            <div className="card__header">Complete Web Design Services</div>
-            <div className="card__header card__header--price">$367</div>
-            <li className="card__bullet">Price Point A</li>
-            <li className="card__bullet">Price Point B</li>
-            <li className="card__bullet">Price Point C</li>
-            <button className="button">Select</button>
+            <div className="card__header">Website Design Package</div>
+            <div className="card__header card__header--price">$697</div>
+            <li className="card__bullet">
+              Custom Graphic Design (Logos, Banners, etc. )
+            </li>
+            <li className="card__bullet">Custom Website Design</li>
+            <li className="card__bullet">Custom Domain Name</li>
+            <li className="card__bullet">
+              One Hour Monthly Website Maintenance
+            </li>
+            <button className="button">Start</button>
           </div>
           <div className="card">
-            <div className="card__header">$467</div>
-            <li className="card__bullet">Price Point A</li>
-            <li className="card__bullet">Price Point B</li>
-            <li className="card__bullet">Price Point C</li>
+            <div className="card__header">Social Media Package</div>
+            <div className="card__header card__header--price">$797</div>
+            <li className="card__bullet">
+              Custom Graphic Design (Logos, Banners, etc. )
+            </li>
+            <li className="card__bullet">Custom Website Design</li>
+            <li className="card__bullet">Custom Domain Name</li>
+            <li className="card__bullet">
+              One Hour Monthly Website Maintenance
+            </li>
+            <li className="card__bullet">Facebook Page Creation</li>
+            <li className="card__bullet">Instagram Account Creation</li>
+            <button className="button">Start</button>
           </div>
         </main>
       </div>
