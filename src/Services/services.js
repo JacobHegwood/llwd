@@ -11,6 +11,7 @@ export default class Services extends Component {
           </div>
         </header>
         <main className="main">
+          <h1 className="h1">Packages We Offer :</h1>
           <div className="card">
             <div className="card__header">Website Design Package</div>
             <div className="card__header card__header--price">$697</div>
