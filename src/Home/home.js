@@ -8,7 +8,7 @@ export default class Home extends Component {
           className="header"
           style={{
             backgroundImage:
-              "url('https://res.cloudinary.com/long-leaf-web-design/image/upload/v1558304008/stock/pines_dfbsdp.jpg')"
+              "url('https://res.cloudinary.com/long-leaf-web-design/image/upload/c_scale,w_1920/v1558304008/stock/pines_dfbsdp.jpg')"
           }}
         >
           <div className="header__logo" />
