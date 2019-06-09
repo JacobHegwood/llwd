@@ -38,7 +38,8 @@
     }
 
     @include respond(tab-port) { // width < 900?
-      font-size: 7rem;
+      top: 60%;
+      font-size: 6.5rem;
     }
   }
 

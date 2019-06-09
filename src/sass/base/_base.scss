@@ -28,6 +28,7 @@ body {
     height: 100vh;
     background: $color-primary;
     overflow-x: hidden;
+    text-align: center;
 
     @include respond(tab-port) {
         padding: 0;
