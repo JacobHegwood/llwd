@@ -20,7 +20,7 @@ export default class App extends Component {
         <Nav />
         <div className="warning">
           ATTENTION: Our Website is Under Construction, for Assistance Please
-          Call (601)-586-3354.
+          Call or Text (601)-586-3354.
         </div>
         <Switch>
           <Route path="/" exact component={Home} />
