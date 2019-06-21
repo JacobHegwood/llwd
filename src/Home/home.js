@@ -24,12 +24,10 @@ export default class Home extends Component {
           <div className="contentbox">
             <p>
               Create a stunning, functional web presence to drive customers to
-              your business, and do so at an affordable price; that’s our
-              mission. This company was created to grow business in the
-              pinebelt, because we understand the importance of small businesses
-              and a strong local economy. With the new world of online shoppers,
-              it is becoming harder and harder for some businesses to turn a
-              profit. We’re here to fix that.
+              your business or educate the audience of your organization, and do
+              so at an affordable price; that’s our mission. This company was
+              created to grow businesses and organizations in the pinebelt,
+              because we understand the importance of a strong local economy.
             </p>
             <p>
               Whether you're looking to boost your business, establish a web
