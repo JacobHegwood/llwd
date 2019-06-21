@@ -11,7 +11,7 @@ export default class Services extends Component {
           </div>
         </header>
         <main className="main">
-          <h1 className="h1">Packages We Offer :</h1>
+          <h1 className="h1">Packages We Offer:</h1>
           <div className="cardholder">
             <div className="card">
               <div className="card__header">Website Design Package</div>
@@ -34,6 +34,27 @@ export default class Services extends Component {
               </li>
               <li className="card__bullet">Custom Website Design</li>
               <li className="card__bullet">Custom Domain Name</li>
+              <li className="card__bullet">
+                One Hour Monthly Website Maintenance
+              </li>
+              <li className="card__bullet">Facebook Page Creation</li>
+              <li className="card__bullet">Instagram Account Creation</li>
+              <button className="button">Start</button>
+            </div>
+            <div className="card">
+              <div className="card__header">E-Commerce Package</div>
+              <div className="card__header card__header--price">$1097</div>
+              <li className="card__bullet">
+                Custom Graphic Design (Logos, Banners, etc. )
+              </li>
+              <li className="card__bullet">Custom Website Design</li>
+              <li className="card__bullet">Custom Domain Name</li>
+              <li className="card__bullet">
+                Custom E-Commerce Store Integration
+              </li>
+              <li className="card__bullet">
+                Initial Listing of 20 Items or less
+              </li>
               <li className="card__bullet">
                 One Hour Monthly Website Maintenance
               </li>
